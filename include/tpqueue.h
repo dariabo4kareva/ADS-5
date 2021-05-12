@@ -22,7 +22,7 @@ class TPQueue {
   }
 
  public:
-  TPQueue() : strt(nullptr), tail(nullptr) {}
+  TPQueue() : strt(nullptr), fnsh(nullptr) {}
   ~TPQueue() {
     while (strt) pop();
   }
